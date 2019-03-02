@@ -1,0 +1,55 @@
+#wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    height: 80%;
+    background-color: antiquewhite;
+}
+
+#inputDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#bottles, #biscuits, #chocolate {
+    padding: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 80%;
+}
+
+p {
+    font-weight: bold;
+}
+
+#result {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+}
+
+.item p {
+    flex: 1;
+}
+
+.item div {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+}

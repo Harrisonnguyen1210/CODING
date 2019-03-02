@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/task2.css">
+    <title>Task 2</title>
+</head>
+
+<body>
+
+<main id="wrapper">
+    <div id="inputDiv">
+        <br>
+        <div class="input">
+            <p>Bottles of water:</p>
+            <input id="bottles" type="number" name="bottles" placeholder="How many bottles do you want to buy ?">
+        </div>
+        <br>
+        <div class="input">
+            <p>Chocolate: </p>
+            <input id="chocolate" type="number" name="chocolate_bars" placeholder="How many chocolate bars do you want to buy ?">
+        </div>
+        <br>
+        <div class="input">
+            <p>Biscuit: </p>
+            <input id="biscuits" type="number" name="biscuits" placeholder="How many biscuits do you want to buy ?">
+        </div>
+    </div>
+    <br>
+    <button onclick="calculateUserInput()">Calculate</button>
+    <p>You have to buy</p>
+
+    <div id="result">
+        <div class="item">
+            <p>Bottles: </p>
+            <div>
+                <p id="bottles_piece"></p>
+                <p id="bottles_pack"></p>
+                <p id="bottles_box"></p>
+            </div>
+        </div>
+        <div class="item">
+            <p>Chocolate: </p>
+            <div>
+                <p id="chocolate_piece"></p>
+                <p id="chocolate_pack"></p>
+            </div>
+        </div>
+        <div class="item">
+            <p>Biscuits: </p>
+            <div>
+                <p id="biscuits_piece"></p>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script type="text/javascript" src="js/task2.js"></script>
+
+</body>
+</html>
